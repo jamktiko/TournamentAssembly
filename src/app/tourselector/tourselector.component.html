@@ -1,5 +1,9 @@
-<div>
-  <button>Single Elimination</button>
-  <button>Double Elimination</button>
-  <button>League</button>
-</div>
+<main>
+  <div *ngFor="let round of rounds" id="rounds">
+    <div *ngFor="let r of round">
+      <p>{{ r.matchup[0] }}</p>
+      <p>{{ r.matchup[1] }}</p>
+      <br />
+    </div>
+  </div>
+</main>
