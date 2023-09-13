@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { TourviewComponent } from './tourview/tourview.component';
 import { FormsModule } from '@angular/forms';
 import { TourselectorComponent } from './tourselector/tourselector.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
-  declarations: [AppComponent, TourviewComponent, TourselectorComponent],
+  declarations: [AppComponent, TourviewComponent, TourselectorComponent, ProfileComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
