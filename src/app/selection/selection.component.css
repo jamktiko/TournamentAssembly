@@ -5,7 +5,7 @@ main {
   height: 100%;
 }
 h2,
-h3 {
+h1 {
   text-align: center;
 }
 
@@ -18,9 +18,11 @@ h3 {
 
 #button-container {
   display: flex;
+  margin-left: 1em;
+  margin-right: 15px;
 }
 
-button {
+app-button {
   margin: 20px;
   padding: 20px;
 }
