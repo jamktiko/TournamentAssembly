@@ -1,4 +1,30 @@
 main {
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: grey;
+}
+
+.header {
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 10em;
+  width: 100vh;
+  background: grey;
+}
+
+header {
+  font-size: 2.2em;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+app-button {
+  width: 15em !important;
+  min-width: unset !important;
+  background: grey;
 }
