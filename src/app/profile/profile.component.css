@@ -8,14 +8,23 @@ main {
   );
 }
 
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .button-container {
+  width: 60% !important;
+  min-width: unset !important;
   padding-top: 20em;
   margin-bottom: 2em;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
 }
 
 app-button {
+  margin: 3em;
   width: 35em !important;
   min-width: unset !important;
 }
