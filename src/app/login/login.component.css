@@ -9,7 +9,7 @@
   width: fit-content;
   max-width: 75%;
   margin-left: 10px;
-  margin-top: 20%;
+  margin-top: 5%;
   height: fit-content;
   max-height: 50%;
 }
@@ -21,4 +21,17 @@
   flex-basis: auto;
   align-self: auto;
   order: 0;
+}
+.quest_css {
+  max-height: 75%;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 200px;
+  display: flex;
+
+  flex-wrap: nowrap;
+
+  align-items: flex-start;
 }
