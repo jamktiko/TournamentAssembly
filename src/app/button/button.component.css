@@ -1,18 +1,19 @@
 .flex-container {
   display: flex;
+  justify-content: center;
 }
 
 .flex-container > button {
   background: linear-gradient(
-    104deg,
-    rgba(9, 9, 121, 1) 0%,
-    rgb(58, 58, 58) 100%
+    147deg,
+    rgb(10, 10, 82) 0%,
+    rgb(11, 11, 28) 50%,
+    rgb(12, 12, 12) 100%
   );
-
   padding: 20px;
   border-radius: 40px;
-  font-size: 30px;
+  font-size: 3em;
   color: white;
-  border: 1px solid rgba(128, 128, 128, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.25);
   cursor: pointer;
 }
