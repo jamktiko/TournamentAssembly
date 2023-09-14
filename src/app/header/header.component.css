@@ -1,4 +1,25 @@
 header {
+  min-height: 30vh;
+  color: #ffffff;
+  background: linear-gradient(
+    104deg,
+    rgb(7, 4, 65) 0%,
+    rgb(29, 29, 76) 35%,
+    rgb(54, 3, 52) 100%
+  );
   display: flex;
+  align-items: center;
   justify-content: center;
+  border-bottom: solid 1px #ffffff56;
+}
+
+h1 {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(1px 1px 3px #00000056);
+  justify-content: center;
+  text-align: center;
+  font-size: 6em;
+  font-weight: 800;
 }
