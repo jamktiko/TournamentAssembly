@@ -1,3 +1,12 @@
+main {
+  background: linear-gradient(
+    104deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(91, 0, 88, 1) 100%
+  );
+}
+
 .flex-container {
   display: inline-flex;
   flex-direction: column;
