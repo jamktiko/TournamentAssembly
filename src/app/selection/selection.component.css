@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+h2,
+h3 {
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+#button-container {
+  display: flex;
+}
+
+button {
+  margin: 20px;
+  padding: 20px;
+}
