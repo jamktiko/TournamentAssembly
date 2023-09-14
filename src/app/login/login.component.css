@@ -23,15 +23,19 @@
   order: 0;
 }
 .quest_css {
-  max-height: 75%;
+  max-height: 5%;
   align-self: center;
   justify-content: center;
   flex-direction: column;
-
+  margin-left: 20px;
   height: 200px;
   display: flex;
 
   flex-wrap: nowrap;
 
   align-items: flex-start;
+}
+.button1 {
+  height: 30%;
+  width: 15%;
 }
